@@ -1,0 +1,22 @@
+/* RESALTAR TEXTO CON TOOLTIP */
+.text-tooltip {
+  text-decoration: underline;
+  color: #116299;
+  cursor: pointer;
+}
+/* CSS PARA TOOLTIP PERSONALIZADO */
+.tooltip-custom .tooltip-inner {
+  background-color: #468c46;
+  color: #fff;
+  font-weight: 500;
+}
+
+.bs-tooltip-top .tooltip-arrow::before,
+.bs-tooltip-auto[x-placement^="top"] .tooltip-arrow::before {
+  border-top-color: #468c46;
+}
+
+.bs-tooltip-bottom .tooltip-arrow::before,
+.bs-tooltip-auto[x-placement^="bottom"] .tooltip-arrow::before {
+  border-bottom-color: #468c46;
+}
